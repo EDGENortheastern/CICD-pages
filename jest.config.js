@@ -1,4 +1,5 @@
 export default {
   testEnvironment: 'jest-environment-node',
-  transform: {}
+  transform: {},
+  collectCoverageFrom: ["index.js", "logic.mjs"]
 };
