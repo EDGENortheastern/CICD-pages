@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+body {
+    background-color: darkslategrey;
+}
+
+.container {
+    max-width: 40rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: antiquewhite;
+    border-radius: 2px;
+}
+
+.form__control {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 1rem 0;
+}
+
+.form__btn {
+    background-color: darkslategray;
+    color: antiquewhite;
+    border-top: none;
+    border-radius: 2px;
+    margin: 1rem 0;
+}
+
+input {
+    padding: 0.5rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
